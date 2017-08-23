@@ -1,11 +1,17 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
+  background-image: url("http://10ways.com/wp-content/uploads/2015/12/crosses-787x471.jpg");
+  display: flex;
+  justify-content: center;
+  font-family: 'Lobster Two', cursive;
+  font-size: 36px;
+  color: blue;
   margin: 20px;
 }
 
 ol, ul {
   padding-left: 30px;
 }
+
 
 .board-row:after {
   clear: both;
@@ -15,21 +21,24 @@ ol, ul {
 
 .status {
   margin-bottom: 10px;
+
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: black;
+  border: 2px solid white;
   float: left;
-  font-size: 24px;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 60px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 100px;
 }
 
 .square:focus {
